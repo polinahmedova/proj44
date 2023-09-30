@@ -15,7 +15,7 @@ class Product with _$Product {
     required int stock,
     required String brand,
     required String category,
-  }) = _Product
+  }) = _Product;
   factory Product.fromJson(Map<String, dynamic> json) => 
       _$ProductFromJson(json);
 }
